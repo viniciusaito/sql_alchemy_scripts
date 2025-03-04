@@ -129,7 +129,7 @@ def main(command):
     else:
         raise ValueError("Invalid command. Please use 'on' or 'off'.")
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     import sys
     
     if len(sys.argv) != 2:
