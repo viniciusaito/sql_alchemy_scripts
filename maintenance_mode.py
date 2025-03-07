@@ -3,9 +3,9 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.sql import text
 
 # Database connection details
-DATABASE_URI = 'your_database_uri_here'
-TABLE_NAME = 'your_table_name_here'
-COLUMN_NAME = 'your_column_name_here'
+DATABASE_URI = 'sqlite:///db_test.db'
+TABLE_NAME = 'test'
+COLUMN_NAME = 'is_paused'
 
 # Initialize SQLAlchemy engine and metadata
 engine = create_engine(DATABASE_URI)
